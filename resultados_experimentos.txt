@@ -1,0 +1,473 @@
+Iniciando experimentos...
+Data: Fri Jul 18 23:31:00 -03 2025
+---------------------------------------------------
+
+--- Rodando odd_even_serial ---
+Tamanho do Array: 1000, Algoritmo: odd_even_serial
+Tempo médio de execução serial para array de tamanho 1000: 0.000462 segundos
+Array está ordenado: Sim
+
+Tamanho do Array: 5000, Algoritmo: odd_even_serial
+Tempo médio de execução serial para array de tamanho 5000: 0.007831 segundos
+Array está ordenado: Sim
+
+Tamanho do Array: 10000, Algoritmo: odd_even_serial
+Tempo médio de execução serial para array de tamanho 10000: 0.033455 segundos
+Array está ordenado: Sim
+
+Tamanho do Array: 50000, Algoritmo: odd_even_serial
+Tempo médio de execução serial para array de tamanho 50000: 1.370134 segundos
+Array está ordenado: Sim
+
+Tamanho do Array: 100000, Algoritmo: odd_even_serial
+Tempo médio de execução serial para array de tamanho 100000: 5.654864 segundos
+Array está ordenado: Sim
+
+
+--- Rodando qsort_serial ---
+Tamanho do Array: 1000, Algoritmo: qsort_serial
+Tempo médio de execução qsort serial para array de tamanho 1000: 0.000035 segundos
+Array está ordenado: Sim
+
+Tamanho do Array: 5000, Algoritmo: qsort_serial
+Tempo médio de execução qsort serial para array de tamanho 5000: 0.000250 segundos
+Array está ordenado: Sim
+
+Tamanho do Array: 10000, Algoritmo: qsort_serial
+Tempo médio de execução qsort serial para array de tamanho 10000: 0.000536 segundos
+Array está ordenado: Sim
+
+Tamanho do Array: 50000, Algoritmo: qsort_serial
+Tempo médio de execução qsort serial para array de tamanho 50000: 0.002906 segundos
+Array está ordenado: Sim
+
+Tamanho do Array: 100000, Algoritmo: qsort_serial
+Tempo médio de execução qsort serial para array de tamanho 100000: 0.005887 segundos
+Array está ordenado: Sim
+
+
+--- Rodando odd_even_openmp ---
+Tamanho do Array: 1000, Algoritmo: odd_even_openmp, Threads: 1
+Tempo médio de execução OpenMP para array de tamanho 1000 com 1 threads: 0.000445 segundos
+Array está ordenado: Sim
+
+Tamanho do Array: 1000, Algoritmo: odd_even_openmp, Threads: 2
+Tempo médio de execução OpenMP para array de tamanho 1000 com 2 threads: 0.000351 segundos
+Array está ordenado: Sim
+
+Tamanho do Array: 1000, Algoritmo: odd_even_openmp, Threads: 4
+Tempo médio de execução OpenMP para array de tamanho 1000 com 4 threads: 0.000400 segundos
+Array está ordenado: Sim
+
+Tamanho do Array: 1000, Algoritmo: odd_even_openmp, Threads: 8
+Tempo médio de execução OpenMP para array de tamanho 1000 com 8 threads: 0.000751 segundos
+Array está ordenado: Sim
+
+Tamanho do Array: 5000, Algoritmo: odd_even_openmp, Threads: 1
+Tempo médio de execução OpenMP para array de tamanho 5000 com 1 threads: 0.007426 segundos
+Array está ordenado: Sim
+
+Tamanho do Array: 5000, Algoritmo: odd_even_openmp, Threads: 2
+Tempo médio de execução OpenMP para array de tamanho 5000 com 2 threads: 0.004599 segundos
+Array está ordenado: Sim
+
+Tamanho do Array: 5000, Algoritmo: odd_even_openmp, Threads: 4
+Tempo médio de execução OpenMP para array de tamanho 5000 com 4 threads: 0.003668 segundos
+Array está ordenado: Sim
+
+Tamanho do Array: 5000, Algoritmo: odd_even_openmp, Threads: 8
+Tempo médio de execução OpenMP para array de tamanho 5000 com 8 threads: 0.004921 segundos
+Array está ordenado: Sim
+
+Tamanho do Array: 10000, Algoritmo: odd_even_openmp, Threads: 1
+Tempo médio de execução OpenMP para array de tamanho 10000 com 1 threads: 0.028601 segundos
+Array está ordenado: Sim
+
+Tamanho do Array: 10000, Algoritmo: odd_even_openmp, Threads: 2
+Tempo médio de execução OpenMP para array de tamanho 10000 com 2 threads: 0.017501 segundos
+Array está ordenado: Sim
+
+Tamanho do Array: 10000, Algoritmo: odd_even_openmp, Threads: 4
+Tempo médio de execução OpenMP para array de tamanho 10000 com 4 threads: 0.012085 segundos
+Array está ordenado: Sim
+
+Tamanho do Array: 10000, Algoritmo: odd_even_openmp, Threads: 8
+Tempo médio de execução OpenMP para array de tamanho 10000 com 8 threads: 0.007844 segundos
+Array está ordenado: Sim
+
+Tamanho do Array: 50000, Algoritmo: odd_even_openmp, Threads: 1
+Tempo médio de execução OpenMP para array de tamanho 50000 com 1 threads: 1.168700 segundos
+Array está ordenado: Sim
+
+Tamanho do Array: 50000, Algoritmo: odd_even_openmp, Threads: 2
+Tempo médio de execução OpenMP para array de tamanho 50000 com 2 threads: 0.461655 segundos
+Array está ordenado: Sim
+
+Tamanho do Array: 50000, Algoritmo: odd_even_openmp, Threads: 4
+Tempo médio de execução OpenMP para array de tamanho 50000 com 4 threads: 0.230889 segundos
+Array está ordenado: Sim
+
+Tamanho do Array: 50000, Algoritmo: odd_even_openmp, Threads: 8
+Tempo médio de execução OpenMP para array de tamanho 50000 com 8 threads: 0.215639 segundos
+Array está ordenado: Sim
+
+Tamanho do Array: 100000, Algoritmo: odd_even_openmp, Threads: 1
+Tempo médio de execução OpenMP para array de tamanho 100000 com 1 threads: 5.522619 segundos
+Array está ordenado: Sim
+
+Tamanho do Array: 100000, Algoritmo: odd_even_openmp, Threads: 2
+Tempo médio de execução OpenMP para array de tamanho 100000 com 2 threads: 2.534820 segundos
+Array está ordenado: Sim
+
+Tamanho do Array: 100000, Algoritmo: odd_even_openmp, Threads: 4
+Tempo médio de execução OpenMP para array de tamanho 100000 com 4 threads: 1.548856 segundos
+Array está ordenado: Sim
+
+Tamanho do Array: 100000, Algoritmo: odd_even_openmp, Threads: 8
+Tempo médio de execução OpenMP para array de tamanho 100000 com 8 threads: 0.972496 segundos
+Array está ordenado: Sim
+
+
+--- Rodando odd_even_mpi ---
+Tamanho do Array: 1000, Algoritmo: odd_even_mpi, Processos: 1
+Tempo Total (max) médio: 0.000044 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.14%
+Array está ordenado: Sim
+
+Tamanho do Array: 1000, Algoritmo: odd_even_mpi, Processos: 2
+Tempo Total (max) médio: 0.000041 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.11%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.000041 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.13%
+Array está ordenado: Sim
+
+Tamanho do Array: 1000, Algoritmo: odd_even_mpi, Processos: 4
+Tempo Total (max) médio: 0.000048 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.10%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.000046 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.11%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.000041 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.13%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.000040 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.11%
+Array está ordenado: Sim
+
+Tamanho do Array: 1000, Algoritmo: odd_even_mpi, Processos: 8
+Tempo Total (max) médio: 0.000042 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.12%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.000041 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.11%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.000041 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.14%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.000041 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.12%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.000040 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.12%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.000041 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.12%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.000040 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.13%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.000050 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.12%
+Array está ordenado: Sim
+
+Tamanho do Array: 5000, Algoritmo: odd_even_mpi, Processos: 1
+Tempo Total (max) médio: 0.000258 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.02%
+Array está ordenado: Sim
+
+Tamanho do Array: 5000, Algoritmo: odd_even_mpi, Processos: 2
+Tempo Total (max) médio: 0.000256 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.02%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.000257 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.02%
+Array está ordenado: Sim
+
+Tamanho do Array: 5000, Algoritmo: odd_even_mpi, Processos: 4
+Tempo Total (max) médio: 0.000258 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.02%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.000258 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.02%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.000261 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.02%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.000258 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.02%
+Array está ordenado: Sim
+
+Tamanho do Array: 5000, Algoritmo: odd_even_mpi, Processos: 8
+Tempo Total (max) médio: 0.000261 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.03%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.000263 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.02%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.000257 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.02%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.000276 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.02%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.000257 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.02%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.000259 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.03%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.000273 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.02%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.000264 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.02%
+Array está ordenado: Sim
+
+Tamanho do Array: 10000, Algoritmo: odd_even_mpi, Processos: 1
+Tempo Total (max) médio: 0.000549 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.01%
+Array está ordenado: Sim
+
+Tamanho do Array: 10000, Algoritmo: odd_even_mpi, Processos: 2
+Tempo Total (max) médio: 0.000546 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.01%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.000545 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.01%
+Array está ordenado: Sim
+
+Tamanho do Array: 10000, Algoritmo: odd_even_mpi, Processos: 4
+Tempo Total (max) médio: 0.000544 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.01%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.000548 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.01%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.000544 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.01%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.000545 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.01%
+Array está ordenado: Sim
+
+Tamanho do Array: 10000, Algoritmo: odd_even_mpi, Processos: 8
+Tempo Total (max) médio: 0.000546 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.01%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.000562 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.01%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.000561 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.01%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.000556 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.01%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.000557 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.01%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.000549 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.01%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.000549 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.01%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.000734 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.01%
+Array está ordenado: Sim
+
+Tamanho do Array: 50000, Algoritmo: odd_even_mpi, Processos: 1
+Tempo Total (max) médio: 0.002988 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.00%
+Array está ordenado: Sim
+
+Tamanho do Array: 50000, Algoritmo: odd_even_mpi, Processos: 2
+Tempo Total (max) médio: 0.002974 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.00%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.003092 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.00%
+Array está ordenado: Sim
+
+Tamanho do Array: 50000, Algoritmo: odd_even_mpi, Processos: 4
+Tempo Total (max) médio: 0.002955 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.01%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.002950 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.00%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.002947 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.00%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.002959 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.00%
+Array está ordenado: Sim
+
+Tamanho do Array: 50000, Algoritmo: odd_even_mpi, Processos: 8
+Tempo Total (max) médio: 0.003003 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.01%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.003001 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.01%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.002999 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.00%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.002986 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.01%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.002995 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.00%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.002988 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.00%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.002999 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.00%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.002982 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.00%
+Array está ordenado: Sim
+
+Tamanho do Array: 100000, Algoritmo: odd_even_mpi, Processos: 1
+Tempo Total (max) médio: 0.006313 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.00%
+Array está ordenado: Sim
+
+Tamanho do Array: 100000, Algoritmo: odd_even_mpi, Processos: 2
+Tempo Total (max) médio: 0.006114 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.00%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.006415 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.00%
+Array está ordenado: Sim
+
+Tamanho do Array: 100000, Algoritmo: odd_even_mpi, Processos: 4
+Tempo Total (max) médio: 0.006059 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.00%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.006035 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.00%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.006084 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.00%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.006056 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.00%
+Array está ordenado: Sim
+
+Tamanho do Array: 100000, Algoritmo: odd_even_mpi, Processos: 8
+Tempo Total (max) médio: 0.006081 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.00%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.006099 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.00%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.006152 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.00%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.006086 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.00%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.007271 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.00%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.006110 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.00%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.007292 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.00%
+Array está ordenado: Sim
+Tempo Total (max) médio: 0.009097 s
+Tempo Comunicação (soma) médio: 0.000000 s
+Overhead (aprox) médio: 0.00%
+Array está ordenado: Sim
+
+---------------------------------------------------
+Experimentos concluídos. Resultados em: resultados_experimentos.txt
